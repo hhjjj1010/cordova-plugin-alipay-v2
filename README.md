@@ -20,7 +20,8 @@
     cordova plugin add https://github.com/hhjjj1010/cordova-plugin-alipay-v2.git --variable APP_ID=[your AppId]
 
 ###### 本地安装
-下载到本地
+下载插件到本地
+
     cordova plugin add /your/local/path --variable APP_ID=[your AppId]
     
 ***
