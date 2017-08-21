@@ -9,7 +9,7 @@
 
 ***
 ### 支持平台
-1. android （alipaySdk-20161129.jar）
+1. android （alipaySdk-2070725.jar）
 2. iOS
 
 ***
@@ -26,7 +26,8 @@
     
 ***
 ### 使用 API
-    // 第一步：订单在服务端签名生成订单信息，具体请参考官网进行签名处理
+    // ionic3上使用时需早import结束后添加 declare let cordova;
+    // 第一步：订单在服务端签名生成订单信息，具体请参考官网进行签名处理
     var payInfo  = "xxxx";
 
     // 第二步：调用支付插件            
