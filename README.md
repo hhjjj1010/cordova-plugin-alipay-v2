@@ -1,4 +1,4 @@
-# cordova-plugin-alipay-v2
+# cordova-plugin-alipay-v2（更新至20170725）
 ### 前言：
 支付宝的cordova插件其实在github上已经有很多了，但是都已经是以前的版本了。在2016年11月的时候支付宝进行了一次更新，支付宝的SDK升级到2.0版本。以前在app中使用支付宝进行支付叫做移动支付，11月之后更名为APP支付。
 ###### 本插件仅支持《APP支付》，不支持移动支付
@@ -44,3 +44,12 @@
                  * detail.htm?spm=0.0.0.0.xdvAU6&treeId=59&articleId=103665&
                  * docType=1) 建议商户依赖异步通知
                  */
+                
+                
+#### TIPS
+##### 1. iOS上支付成功之后无法回调
+xcode的URL Types上alipay的URL Schemes正确格式应为ali2xxxxxxxxxxxxxxx。2开头的这串数字是你的APP_ID，英文字母与数字之间没有任何符号！！！
+
+##### 2. 沙箱环境
+在我个人的开发过程中确实是没有使用到沙箱环境，都是直接真实支付1分钱来做测试。
+如要使用沙箱环境，请自行参考官方文档https://docs.open.alipay.com/200/105311/
