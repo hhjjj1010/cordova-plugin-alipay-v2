@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-alipay-v2",
-  "version": "0.0.3",
-  "description": "a cordova plugin, a JS version of Alipay SDK",
+  "version": "0.0.4",
+  "description": "a cordova plugin, a JS version of Alipay SDK(20170725)",
   "cordova": {
     "id": "cordova-plugin-alipay-v2",
     "platforms": [
