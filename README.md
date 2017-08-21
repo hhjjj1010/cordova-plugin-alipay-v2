@@ -26,6 +26,7 @@
     
 ***
 ### 使用 API
+
     // ionic3上使用时需早import结束后添加 declare let cordova;
     // 第一步：订单在服务端签名生成订单信息，具体请参考官网进行签名处理
     var payInfo  = "xxxx";
