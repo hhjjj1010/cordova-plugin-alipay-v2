@@ -11,6 +11,7 @@
 ### 支持平台
 1. android （alipaySdk-2070725.jar）
 2. iOS
+##### note：xcode版本须大于7.0
 
 ***
 ### 安装
