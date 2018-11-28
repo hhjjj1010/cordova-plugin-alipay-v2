@@ -12,7 +12,7 @@ ionic1上的建议写法
     cordova.plugins.alipay.payment(payInfo,function success(e){
       // 支付成功
 
-    },function error(e){
+    },function error(error){
       // 支付失败
       console.log("支付失败" + error.resultStatus);
     });
@@ -76,7 +76,7 @@ ionic1上的建议写法
     cordova.plugins.alipay.payment(payInfo,function success(e){
       // 支付成功
 
-    },function error(e){
+    },function error(error){
       // 支付失败
       console.log("支付失败" + error.resultStatus);
     });
