@@ -1,0 +1,10 @@
+repositories{
+    jcenter()
+    flatDir{
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile (name: 'alipaySdk-15.6.5-20190718211148', ext: 'aar')
+}

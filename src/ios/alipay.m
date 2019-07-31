@@ -48,7 +48,7 @@
             
             CDVPluginResult* pluginResult;
             
-            if ([[resultDic objectForKey:@"resultStatus"]  isEqual: @"9000"]) {
+            if ([[resultDic objectForKey:@"resultStatus"] isEqual: @"9000"]) {
                 pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsDictionary:resultDic];
                 [self.commandDelegate sendPluginResult:pluginResult callbackId:callbackId];
             } else {
