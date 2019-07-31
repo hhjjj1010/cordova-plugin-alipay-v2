@@ -9,7 +9,7 @@ __本插件仅支持《APP支付》，不支持移动支付__
 - Android SDK 更新至alipaySdk-15.6.5-20190718211148.aar。
 - iOS SDK 已适配 iPhoneX，支持 IPv6_only 网络和 ATS 安全标准。
 
-##2018-11-28 更新日志
+## 2018-11-28 更新日志
 最近总有人问在iOS上没有回调的问题，真机实测不存在该问题。
 
 __*第一步：在Xcode中检查project的Bundle Identifier是否与其他项目重名。*__
