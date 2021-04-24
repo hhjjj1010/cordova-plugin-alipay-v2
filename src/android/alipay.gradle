@@ -6,5 +6,5 @@ repositories{
 }
 
 dependencies {
-    compile (name: 'alipaySdk-15.6.5-20190718211148', ext: 'aar')
+    compile (name: 'alipaysdk-15.8.00.201112210139', ext: 'aar')
 }

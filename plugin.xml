@@ -20,7 +20,7 @@
 
         <source-file src="src/android/alipay.java" target-dir="src/cn/hhjjj/alipay"/>
         <source-file src="src/android/PayResult.java" target-dir="src/cn/hhjjj/alipay"/>
-        <lib-file src="src/android/lib/alipaySdk-15.6.5-20190718211148.aar" />
+        <lib-file src="src/android/lib/alipaysdk-15.8.00.201112210139.aar" />
         <framework src="src/android/alipay.gradle" custom="true" type="gradleReference"/>
 
     </platform>
